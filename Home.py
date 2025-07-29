@@ -119,6 +119,7 @@ st.markdown(
 
 col1, d,col2 = st.columns([1.5,1, 5])
 
+
 with col1:
     st.container(height=100,border=0)
     st.markdown('<div class="name">Amit Sharma</div>', unsafe_allow_html=True)
@@ -134,7 +135,7 @@ with col1:
 
 with col2:
     st.markdown('<div class="main-title">Hi! I’m Amit</div>', unsafe_allow_html=True)
-    st.markdown('<div class="subtitle">Engineer at Bharti Airtel Ltd.</div>', unsafe_allow_html=True)
+    st.markdown('<div class="subtitle">Engineer at Bharti Airtel Ltd</div>', unsafe_allow_html=True)
     st.markdown('<div class="summary">I have been graduated from DAV University in the field of Computer Science and Engineering. I have gained skills including various tools and frameworks such as Python, SQL, Advance Excel. Currently working in Bharti  Airtel as an EMF Engineer and expanding my expertise in the field of Analytics', unsafe_allow_html=True)
 
 
@@ -144,12 +145,12 @@ st.markdown('<div class="main-title">Projects</div>', unsafe_allow_html=True)
 st.markdown('<div class="subtitle">Implementation of my Skills and Learnings in real life</div>', unsafe_allow_html=True)
 st.markdown("""<div class="projectwrapper">
             <a href="https://colab.research.google.com/drive/1aueFiooS41Ag1wEDcpOXQu132ivK8zu9?usp=sharing", class="projectcard">
-                <img src="https://i.imgur.com/7ZjI1aS.png"></img>
+                <img src="https://i.postimg.cc/J4GdLjqG/Screenshot-2025-07-24-221431.png"></img>
                 <h5>Credit Card Fraud Detection</h5>
                 <p>The Credit Card Fraud Detection project aimed to develop a machine learning model to identify and prevent fraudulent credit card transactions. By analyzing historical transaction data and utilizing advanced algorithms, the project focused on creating a system that could accurately detect suspicious activities in real-time to minimize financial losses and protect customers from fraud.</p>
             </a>
             <a href="https://colab.research.google.com/drive/1B3pMx2_uhYpUAS-xpl7RIvRm9iG2Z8Pu?usp=sharing", class="projectcard">
-                <img src="https://i.imgur.com/2t1GMNg.png"></img>
+                <img src="https://i.postimg.cc/HsRvsjZ3/Screenshot-2025-07-24-221556.png"></img>
                 <h5>Exploratory Data Analysis</h5>
                 <p>In today's data-driven world, the ability to derive insights from vast amounts of information is crucial across various fields. This project focuses on Exploratory Data Analysis (EDA), a vital process that allows analysts to summarize the main characteristics of a dataset, often using visual methods. EDA serves as a preliminary step in data analysis, enabling us to understand the structure, patterns, and anomalies within our data before applying more formal statistical techniques. By employing EDA, we aim to uncover hidden insights that can inform decision-making and drive strategic initiatives.</p>
             </a>
